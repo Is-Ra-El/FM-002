@@ -47,11 +47,11 @@ body{
     opacity: 0.6;
     margin-top: 20px;
 }
-.socials{
-    display: flex;
+button{
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center; */
+
     background-color: rgb(48, 47, 47);
     border: 1px solid  rgb(48, 47, 47);
     border-radius: 5px;
@@ -62,12 +62,32 @@ body{
     opacity: 0.8;
     position: relative;
     top: 10px;
+    width: 250px;
 }
-.socials:hover{
+
+button:hover{
     cursor: pointer;
     background-color: rgb(58, 58, 57);
 
 }
+button:focus{ border: 2px solid blue;
+
+}
+
 .fa{
     color: white;
+    position: relative;
+    left: -5px;
 }
+#img2{
+    position: relative;
+    left: -5px;
+}
+a{
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+a:focus{
+    color: blue;
+};
